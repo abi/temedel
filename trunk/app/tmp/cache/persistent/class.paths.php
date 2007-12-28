@@ -1,0 +1,21 @@
+<?php
+$config = array();
+$config['Controllers']['UsersController'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/controllers/users_controller.php', );
+$config['Components']['RecaptchaComponent'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/controllers/components/recaptcha.php', );
+$config['Components']['Core']['AuthComponent'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/controller/components/auth.php', );
+$config['Components']['Core']['SessionComponent'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/controller/components/session.php', );
+$config['Components']['Core']['RequestHandlerComponent'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/controller/components/request_handler.php', );
+$config['Components']['Core']['CookieComponent'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/controller/components/cookie.php', );
+$config['Models']['User'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/user.php', );
+$config['Models']['Profile'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/profile.php', );
+$config['Models']['Story'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/story.php', );
+$config['Models']['Category'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/category.php', );
+$config['Models']['Comment'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/comment.php', );
+$config['Models']['Vote'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/vote.php', );
+$config['Models']['Friend'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/friend.php', );
+$config['Models']['Message'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/app/models/message.php', );
+$config['Helpers']['Core']['FormHelper'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/view/helpers/form.php', );
+$config['Helpers']['Core']['HtmlHelper'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/view/helpers/html.php', );
+$config['Helpers']['Core']['SessionHelper'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/view/helpers/session.php', );
+$config['Helpers']['Core']['JavascriptHelper'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/view/helpers/javascript.php', );
+$config['Helpers']['Core']['TimeHelper'] = array('path' => '/Applications/xampp/xamppfiles/htdocs/stuff/exposeRewrite2/cake/libs/view/helpers/time.php', );
